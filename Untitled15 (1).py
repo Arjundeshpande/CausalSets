@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[ ]:
-
-
 from tkinter import *
  
 window = None
@@ -25,8 +21,7 @@ def start() :
     kushcounter += 1
     kushcounterLabel.config(text = str(kushcounter))
  
-def reset() :
-        
+def reset() :   
     global kushcounter
     kushcounter = 0
     kushcounterLabel = Label(window, text = str(kushcounter),fg = 'black', bg = 'green')
@@ -35,7 +30,6 @@ def reset() :
                     padx = "25", pady = "25")
 
 def start1() :
- 
     global parthcounter
     parthcounterLabel = Label(window, fg = 'red',
                          bg = 'pink')
@@ -74,7 +68,6 @@ def reset2() :
                     padx = "25", pady = "25")
     
 def start3() :
-
     global pratcounter
     pratcounterLabel = Label(window, fg = 'red',
                          bg = 'pink')
@@ -104,7 +97,6 @@ def start4() :
     gannacounterLabel.config(text = str(gannacounter))
 
 def reset4() :
-    
     global gannacounter
     gannacounter = 0
     gannacounterLabel = Label(window, text = str(gannacounter),
@@ -114,7 +106,6 @@ def reset4() :
                     padx = "25", pady = "25")
 
 def start5() :
-
     global arjuncounter
     arjuncounterLabel = Label(window, fg = 'red',
                          bg = 'pink')
@@ -126,7 +117,6 @@ def start5() :
     arjuncounterLabel.config(text = str(arjuncounter))
 
 def reset5() :
- 
     global arjuncounter
     arjuncounter = 0
     arjuncounterLabel = Label(window, text = str(arjuncounter),
@@ -261,22 +251,3 @@ if __name__ == "__main__" :
     
     statusField = Entry(window)
     window.mainloop()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
